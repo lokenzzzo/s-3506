@@ -13,7 +13,7 @@ export const Navigation = () => {
           <img 
             src="/lovable-uploads/b317e558-bd87-4faa-b986-10b3ed1b3cbf.png" 
             alt="Kairos Creative Studio" 
-            className="h-8 w-auto"
+            className="h-12 w-auto" // Increased from h-8 to h-12
           />
         </Link>
         
