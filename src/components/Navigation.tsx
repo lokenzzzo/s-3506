@@ -9,8 +9,12 @@ export const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#161618]/80 backdrop-blur-md">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-        <Link to="/" className="text-2xl font-cooper text-[#fefcf2]">
-          Kairos
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/lovable-uploads/b317e558-bd87-4faa-b986-10b3ed1b3cbf.png" 
+            alt="Kairos Creative Studio" 
+            className="h-8 w-auto"
+          />
         </Link>
         
         {/* Mobile menu button */}
@@ -60,3 +64,4 @@ export const Navigation = () => {
     </nav>
   );
 };
+
