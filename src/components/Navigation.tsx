@@ -11,9 +11,9 @@ export const Navigation = () => {
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lovable-uploads/b317e558-bd87-4faa-b986-10b3ed1b3cbf.png" 
+            src="/lovable-uploads/8b3ace4a-a34b-40ac-8af3-2fa7151ac6fe.png" 
             alt="Kairos Creative Studio" 
-            className="h-12 w-auto" // Increased from h-8 to h-12
+            className="h-12 w-auto"
           />
         </Link>
         
@@ -64,4 +64,3 @@ export const Navigation = () => {
     </nav>
   );
 };
-
