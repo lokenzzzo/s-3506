@@ -8,9 +8,11 @@ const Index = () => {
       {/* Hero Section */}
       <main className="h-screen flex items-center justify-center bg-[#161618] text-[#fefcf2]">
         <div className="text-center">
-          <h1 className="text-8xl font-cooper uppercase font-black mb-4">
-            Kairos
-          </h1>
+          <img 
+            src="/lovable-uploads/dddc1043-1f05-43bf-bd0c-914d7b307f70.png"
+            alt="Kairos"
+            className="h-24 mx-auto mb-4"
+          />
           <p className="text-2xl font-light mb-8">
             Where strategy meets creativity at the perfect moment
           </p>
