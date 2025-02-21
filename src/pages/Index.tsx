@@ -9,9 +9,9 @@ const Index = () => {
       <main className="h-screen flex items-center justify-center bg-[#161618] text-[#fefcf2]">
         <div className="text-center">
           <img 
-            src="/lovable-uploads/dddc1043-1f05-43bf-bd0c-914d7b307f70.png"
-            alt="Kairos"
-            className="h-24 mx-auto mb-4"
+            src="/lovable-uploads/f534e84c-026f-453b-b760-92be20792b85.png"
+            alt="Kairos Creative Studio"
+            className="h-28 mx-auto mb-4"
           />
           <p className="text-2xl font-light mb-8">
             Where strategy meets creativity at the perfect moment
