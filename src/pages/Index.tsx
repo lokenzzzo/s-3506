@@ -1,4 +1,3 @@
-
 import { ArrowRight, Zap, Target, Globe, Clock, Send, Palette, BarChart } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -11,7 +10,7 @@ const Index = () => {
           <img 
             src="/lovable-uploads/f6f29824-a123-496f-98bb-c10730cdf8b4.png"
             alt="Kairos Creative Studio"
-            className="h-28 mx-auto mb-4"
+            className="h-84 mx-auto mb-4"
           />
           <p className="text-2xl font-light mb-8">
             Where strategy meets creativity at the perfect moment
