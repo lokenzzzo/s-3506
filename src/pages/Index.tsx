@@ -9,7 +9,7 @@ const Index = () => {
       <main className="h-screen flex items-center justify-center bg-[#161618] text-[#fefcf2]">
         <div className="text-center">
           <img 
-            src="/lovable-uploads/f534e84c-026f-453b-b760-92be20792b85.png"
+            src="/lovable-uploads/f6f29824-a123-496f-98bb-c10730cdf8b4.png"
             alt="Kairos Creative Studio"
             className="h-28 mx-auto mb-4"
           />
