@@ -26,7 +26,7 @@ export const Navigation = () => {
           <img 
             src="/lovable-uploads/a2c4f605-36d5-4d88-b230-0c718e559e2b.png" 
             alt="Kairos Creative Studio" 
-            className="md:hidden h-8 w-auto"
+            className="md:hidden h-4 w-auto"
           />
         </Link>
         
