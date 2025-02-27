@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -21,12 +20,7 @@ export const Navigation = () => {
           <img 
             src="/lovable-uploads/8b3ace4a-a34b-40ac-8af3-2fa7151ac6fe.png" 
             alt="Kairos Creative Studio" 
-            className="hidden md:block h-12 w-auto"
-          />
-          <img 
-            src="/lovable-uploads/a2c4f605-36d5-4d88-b230-0c718e559e2b.png" 
-            alt="Kairos Creative Studio" 
-            className="md:hidden h-4 w-auto"
+            className="h-8 md:h-12 w-auto"
           />
         </Link>
         
