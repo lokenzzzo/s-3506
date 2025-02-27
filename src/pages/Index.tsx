@@ -1,3 +1,4 @@
+
 import { ArrowRight, Zap, Target, Globe, Clock, Send, Palette, BarChart } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
@@ -16,13 +17,13 @@ const Index = () => {
     <div className="min-h-screen bg-background dark">
       {/* Hero Section */}
       <main className="h-screen flex items-center justify-center bg-[#161618] text-[#fefcf2]">
-        <div className="text-center">
+        <div className="text-center px-4">
           <img 
             src="/lovable-uploads/f6f29824-a123-496f-98bb-c10730cdf8b4.png"
             alt="Kairos Creative Studio"
-            className="h-96 mx-auto mb-4"
+            className="w-full max-w-[300px] md:max-w-none md:h-96 mx-auto mb-4 object-contain"
           />
-          <p className="text-2xl font-light mb-8">
+          <p className="text-xl md:text-2xl font-light mb-8">
             Where strategy meets creativity at the perfect moment
           </p>
           <a 
