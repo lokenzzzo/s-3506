@@ -6,6 +6,14 @@ import { useState } from "react";
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const scrollToSection = (id: string) => {
+    setIsOpen(false);
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#161618]/80 backdrop-blur-md">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
@@ -27,36 +35,48 @@ export const Navigation = () => {
 
         {/* Desktop menu */}
         <div className="hidden md:flex items-center gap-8">
-          <Link to="/services" className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors">
+          <button 
+            onClick={() => scrollToSection('services')} 
+            className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors"
+          >
             Services
-          </Link>
-          <Link to="/work" className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors">
-            Work
-          </Link>
-          <Link to="/about" className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors">
+          </button>
+          <button 
+            onClick={() => scrollToSection('about')} 
+            className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors"
+          >
             About
-          </Link>
-          <Link to="/contact" className="px-4 py-2 border border-[#fefcf2] rounded-full text-[#fefcf2] hover:bg-[#fefcf2] hover:text-[#161618] transition-colors">
+          </button>
+          <button 
+            onClick={() => scrollToSection('contact')} 
+            className="px-4 py-2 border border-[#fefcf2] rounded-full text-[#fefcf2] hover:bg-[#fefcf2] hover:text-[#161618] transition-colors"
+          >
             Contact
-          </Link>
+          </button>
         </div>
 
         {/* Mobile menu */}
         {isOpen && (
           <div className="absolute top-20 left-0 right-0 bg-[#161618] md:hidden">
             <div className="flex flex-col p-6 space-y-4">
-              <Link to="/services" className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors">
+              <button 
+                onClick={() => scrollToSection('services')} 
+                className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors text-left"
+              >
                 Services
-              </Link>
-              <Link to="/work" className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors">
-                Work
-              </Link>
-              <Link to="/about" className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors">
+              </button>
+              <button 
+                onClick={() => scrollToSection('about')} 
+                className="text-[#fefcf2]/80 hover:text-[#fefcf2] transition-colors text-left"
+              >
                 About
-              </Link>
-              <Link to="/contact" className="inline-block px-4 py-2 border border-[#fefcf2] rounded-full text-[#fefcf2] hover:bg-[#fefcf2] hover:text-[#161618] transition-colors text-center">
+              </button>
+              <button 
+                onClick={() => scrollToSection('contact')} 
+                className="inline-block px-4 py-2 border border-[#fefcf2] rounded-full text-[#fefcf2] hover:bg-[#fefcf2] hover:text-[#161618] transition-colors text-center"
+              >
                 Contact
-              </Link>
+              </button>
             </div>
           </div>
         )}

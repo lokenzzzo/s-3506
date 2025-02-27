@@ -1,8 +1,17 @@
-
 import { ArrowRight, Zap, Target, Globe, Clock, Send, Palette, BarChart } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useRef } from "react";
 
 const Index = () => {
+  const servicesRef = useRef<HTMLElement>(null);
+  const aboutRef = useRef<HTMLElement>(null);
+  const contactRef = useRef<HTMLElement>(null);
+
+  const handleEmailClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.location.href = "mailto:ask@kairoscreates.com?subject=New Project Inquiry&body=Hi Kairos team, I'm interested in starting a project with you.";
+  };
+
   return (
     <div className="min-h-screen bg-background dark">
       {/* Hero Section */}
@@ -16,17 +25,18 @@ const Index = () => {
           <p className="text-2xl font-light mb-8">
             Where strategy meets creativity at the perfect moment
           </p>
-          <Link 
-            to="/contact"
+          <a 
+            href="mailto:ask@kairoscreates.com?subject=New Project Inquiry&body=Hi Kairos team, I'm interested in starting a project with you."
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#fefcf2] text-[#161618] rounded-full hover:bg-[#fefcf2]/90 transition-colors"
+            onClick={handleEmailClick}
           >
             Start your project <ArrowRight className="w-4 h-4" />
-          </Link>
+          </a>
         </div>
       </main>
 
       {/* Services Section */}
-      <section className="py-24 bg-[#fefcf2] text-[#161618]">
+      <section ref={servicesRef} className="py-24 bg-[#fefcf2] text-[#161618]" id="services">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-cooper mb-16 text-center">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -56,7 +66,7 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-24 bg-[#161618] text-[#fefcf2]">
+      <section ref={aboutRef} className="py-24 bg-[#161618] text-[#fefcf2]" id="about">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl font-cooper mb-8">Creative Timing Meets Bold Innovation</h2>
@@ -103,7 +113,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-24 bg-[#161618] text-[#fefcf2]">
+      <section ref={contactRef} className="py-24 bg-[#161618] text-[#fefcf2]" id="contact">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-cooper mb-8">Let's Create Something Extraordinary</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
@@ -113,15 +123,17 @@ const Index = () => {
             <a 
               href="mailto:ask@kairoscreates.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#fefcf2] text-[#161618] rounded-full hover:bg-[#fefcf2]/90 transition-colors"
+              onClick={handleEmailClick}
             >
               ask@kairoscreates.com <Send className="w-4 h-4" />
             </a>
-            <Link 
-              to="/contact"
+            <a 
+              href="mailto:ask@kairoscreates.com?subject=New Project Inquiry&body=Hi Kairos team, I'm interested in starting a project with you."
               className="inline-flex items-center gap-2 px-6 py-3 border border-[#fefcf2] rounded-full hover:bg-[#fefcf2] hover:text-[#161618] transition-colors"
+              onClick={handleEmailClick}
             >
               Start your project <ArrowRight className="w-4 h-4" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
