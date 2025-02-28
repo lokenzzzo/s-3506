@@ -21,7 +21,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/ce6b000f-556b-4f85-8921-fd6585d66c09.png')",
+            backgroundImage: "url('/lovable-uploads/35ed4c85-64b2-4f1d-bb63-adb731ae53d8.png')",
           }}
         ></div>
         
@@ -86,7 +86,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/ce6b000f-556b-4f85-8921-fd6585d66c09.png')",
+            backgroundImage: "url('/lovable-uploads/35ed4c85-64b2-4f1d-bb63-adb731ae53d8.png')",
           }}
         ></div>
         
@@ -150,7 +150,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/ce6b000f-556b-4f85-8921-fd6585d66c09.png')",
+            backgroundImage: "url('/lovable-uploads/35ed4c85-64b2-4f1d-bb63-adb731ae53d8.png')",
           }}
         ></div>
         
