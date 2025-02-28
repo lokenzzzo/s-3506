@@ -17,16 +17,14 @@ const Index = () => {
     <div className="min-h-screen bg-background dark">
       {/* Hero Section */}
       <main className="h-screen flex items-center justify-center relative text-[#fefcf2] overflow-hidden">
-        {/* Background image */}
-        <div 
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{ 
-            backgroundImage: "url('/lovable-uploads/35ed4c85-64b2-4f1d-bb63-adb731ae53d8.png')",
-          }}
-        ></div>
+        {/* Miami retro gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#5D34A5] via-[#FF007F] to-[#00E0FF] opacity-90 z-0"></div>
         
         {/* Subtle grain texture overlay */}
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxwYXRoIGQ9Ik0wIDBoMzAwdjMwMEgweiIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIuMDUiLz48L3N2Zz4=')] z-10 opacity-20 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxwYXRoIGQ9Ik0wIDBoMzAwdjMwMEgweiIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIuMDUiLz48L3N2Zz4=')] z-10 opacity-40 mix-blend-overlay"></div>
+        
+        {/* Grid lines overlay for futuristic touch */}
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9Ii41Ii8+PC9zdmc+')] z-20 opacity-30"></div>
         
         <div className="text-center px-4 relative z-30">
           <img 
@@ -82,13 +80,8 @@ const Index = () => {
 
       {/* About Section */}
       <section ref={aboutRef} className="py-24 relative text-[#fefcf2]" id="about">
-        {/* Background image */}
-        <div 
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{ 
-            backgroundImage: "url('/lovable-uploads/35ed4c85-64b2-4f1d-bb63-adb731ae53d8.png')",
-          }}
-        ></div>
+        {/* Retro background with sunset gradient */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#161618] via-[#5D34A5] to-[#FF007F] z-0"></div>
         
         {/* Subtle grid overlay */}
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9Ii41Ii8+PC9zdmc+')] z-10 opacity-40"></div>
@@ -146,13 +139,8 @@ const Index = () => {
 
       {/* Contact Section */}
       <section ref={contactRef} className="py-24 relative text-[#fefcf2]" id="contact">
-        {/* Background image */}
-        <div 
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{ 
-            backgroundImage: "url('/lovable-uploads/35ed4c85-64b2-4f1d-bb63-adb731ae53d8.png')",
-          }}
-        ></div>
+        {/* Background gradient */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#161618] via-[#00A896] to-[#00E0FF] z-0"></div>
         
         {/* Retro grid lines */}
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9Ii41Ii8+PC9zdmc+')] opacity-50 z-10"></div>
