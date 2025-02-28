@@ -17,11 +17,11 @@ const Index = () => {
     <div className="min-h-screen bg-background dark">
       {/* Hero Section */}
       <main className="h-screen flex items-center justify-center relative text-[#fefcf2] overflow-hidden">
-        {/* New background image */}
+        {/* Background image */}
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/a78d3d4f-295a-46cd-93a2-11d98ace7497.png')",
+            backgroundImage: "url('/lovable-uploads/ce6b000f-556b-4f85-8921-fd6585d66c09.png')",
           }}
         ></div>
         
@@ -82,8 +82,13 @@ const Index = () => {
 
       {/* About Section */}
       <section ref={aboutRef} className="py-24 relative text-[#fefcf2]" id="about">
-        {/* Retro background with sunset gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#161618] via-[#5D34A5] to-[#FF007F] z-0"></div>
+        {/* Background image */}
+        <div 
+          className="absolute inset-0 z-0 bg-cover bg-center"
+          style={{ 
+            backgroundImage: "url('/lovable-uploads/ce6b000f-556b-4f85-8921-fd6585d66c09.png')",
+          }}
+        ></div>
         
         {/* Subtle grid overlay */}
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9Ii41Ii8+PC9zdmc+')] z-10 opacity-40"></div>
@@ -141,8 +146,13 @@ const Index = () => {
 
       {/* Contact Section */}
       <section ref={contactRef} className="py-24 relative text-[#fefcf2]" id="contact">
-        {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#161618] via-[#00A896] to-[#00E0FF] z-0"></div>
+        {/* Background image */}
+        <div 
+          className="absolute inset-0 z-0 bg-cover bg-center"
+          style={{ 
+            backgroundImage: "url('/lovable-uploads/ce6b000f-556b-4f85-8921-fd6585d66c09.png')",
+          }}
+        ></div>
         
         {/* Retro grid lines */}
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9Ii41Ii8+PC9zdmc+')] opacity-50 z-10"></div>
