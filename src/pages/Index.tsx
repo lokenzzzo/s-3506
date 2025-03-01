@@ -15,8 +15,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background dark">
-      {/* Hero Section - Now 2x bigger */}
-      <main className="h-[200vh] flex items-center justify-center relative text-[#fefcf2] overflow-hidden">
+      {/* Hero Section */}
+      <main className="h-screen flex items-center justify-center relative text-[#fefcf2] overflow-hidden">
         {/* Miami retro gradient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#5D34A5] via-[#FF007F] to-[#00E0FF] opacity-90 z-0"></div>
         
@@ -30,7 +30,7 @@ const Index = () => {
           <img 
             src="/lovable-uploads/f6f29824-a123-496f-98bb-c10730cdf8b4.png"
             alt="Kairos Creative Studio"
-            className="w-full max-w-[400px] md:max-w-none md:h-[120px] mx-auto mb-4 object-contain"
+            className="w-full max-w-[300px] md:max-w-none md:h-96 mx-auto mb-4 object-contain"
           />
           <p className="text-xl md:text-2xl font-light mb-8">
             Where strategy meets creativity at the perfect moment
