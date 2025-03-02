@@ -30,7 +30,7 @@ const Index = () => {
           <img 
             src="/lovable-uploads/f6f29824-a123-496f-98bb-c10730cdf8b4.png"
             alt="Kairos Creative Studio"
-            className="w-full max-w-[900px] md:max-w-none md:h-[288px] mx-auto mb-4 object-contain"
+            className="w-full max-w-[1800px] md:max-w-none md:h-[576px] mx-auto mb-4 object-contain"
           />
           <p className="text-xl md:text-2xl font-light mb-8">
             Where strategy meets creativity at the perfect moment
